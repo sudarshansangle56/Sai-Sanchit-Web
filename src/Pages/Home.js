@@ -28,7 +28,7 @@ function Home() {
               doorstep. Enjoy 'Ghar ka khana' with its comforting touch,
               customized to your preferences.{" "}
               <span> Ab shuru karein sehatmand khaane ka anand, </span> jaise
-              aap chahein, wherever you are in Kopergaon.
+              aap chahein, wherever you are in  kopergaon.
             </p>
             <Link to="/About">
               <button>About us</button>
@@ -66,7 +66,7 @@ function Home() {
               Open Daily 12AM-8PM <br />
               Anapurna Nagar
               <br />
-              Kopergon
+              kopergaon
             </h1>
           </div>
           <div className="box33">
@@ -113,7 +113,7 @@ function Home() {
                 <img src="/IMAGES/Car.png" alt="" srcset="" />
                 <h1> FREE HOME DILIVERY</h1>
               </div>
-              <p>IN KOPERGON ONLY</p>
+              <p>IN kOPERGAON ONLY</p>
             </div>
           </div>
         </div>

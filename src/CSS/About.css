@@ -59,11 +59,11 @@ background-color: #BEC84D;
       padding: 45px;
     }
     .about1 {
-      height: 420px;
+      min-height: 100px;
       width: 350px;
       background-color: transparent;
       border-radius: 3vh;
-      padding: 40px;
+      padding: 15px;
       margin: 4vh;
     }
     .aboutpage img{

@@ -1,3 +1,9 @@
+
+
+body {
+  font-family: 'Copperplate Gothic', sans-serif;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -800,8 +806,7 @@ display: none;
   }
 
   .hf11 {
-
-    height: 200px;
+   height: 200px;
     width: 100%;
   }
 
@@ -901,7 +906,8 @@ display: none;
     width: auto;
   }
   .cont {
-    width: 100%;
+    
+    width: 90%;
     height: auto;
     font-size: 1vh;
   }
@@ -911,7 +917,7 @@ display: none;
     width: 50%;
     height: 100%;
     justify-content: center;
-    font-size: 4vh;
+    font-size: 228%;
 
   }
 }

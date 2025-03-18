@@ -113,7 +113,7 @@ function Home() {
                 <img src="/IMAGES/Car.png" alt="" srcset="" />
                 <h1> FREE HOME DILIVERY</h1>
               </div>
-              <p>IN kOPERGAON ONLY</p>
+              <p>IN KOPERGAON ONLY</p>
             </div>
           </div>
         </div>

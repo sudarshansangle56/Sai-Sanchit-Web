@@ -92,7 +92,7 @@ background-color: #BEC84D;
 
   .about1 {
     min-height: 350px;
-    min-width: 500px;
+    width: 500px;
     background-color: transparent;
     border-radius: 3vh;
     padding: 15px;

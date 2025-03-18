@@ -225,3 +225,24 @@ input[type="radio"] {
     font-size: 14px; 
   }
 }
+@media screen and (min-width: 768px) {
+  .part14 h1{
+    font-size: 35px;
+  }
+  .part14 p{
+    font-size: 17px;
+  }
+  input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="password"] {
+  width: 150%;
+  padding: 10px;
+  border: 1px solid #040404;
+  background-color: rgba(192, 192, 192, 0.332);
+  opacity: 0.5;
+  border-radius: 5vh;
+  color: #000000;
+
+}
+}

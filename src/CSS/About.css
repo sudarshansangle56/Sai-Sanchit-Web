@@ -14,8 +14,9 @@
   margin-bottom: 2vh;
 }
 .about1 {
-
-  background-color: transparent;
+  min-height: 150px;
+  background-color: aqua;
+  
   border: 1px dashed black;
 
 }
@@ -59,9 +60,9 @@ background-color: #BEC84D;
       padding: 45px;
     }
     .about1 {
-      min-height: 100px;
-      width: 350px;
+      min-height: 150px;
       background-color: transparent;
+      width: 350px;
       border-radius: 3vh;
       padding: 15px;
       margin: 4vh;
@@ -85,15 +86,16 @@ background-color: #BEC84D;
         }
 
     }
-
+/* 
+    for i pad */
 @media screen and (min-width: 768px) {
 
   .about1 {
-    height: 350px;
-    width: 500px;
+    min-height: 350px;
+    min-width: 500px;
     background-color: transparent;
     border-radius: 3vh;
-    padding: 40px;
+    padding: 15px;
     margin: 3vh;
   }
   

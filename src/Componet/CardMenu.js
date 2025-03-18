@@ -11,10 +11,7 @@ function CardMenu({Headl,title,link}) {
           <p class="card-text">
            {Headl}
           </p>
-          <div className="cardbtn">
-          
-          </div>
-       
+     
         </div>
       </div>
       </div>

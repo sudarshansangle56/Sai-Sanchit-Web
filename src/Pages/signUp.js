@@ -107,92 +107,90 @@ function SignUpForm() {
   };
 
   return (
-    
+    <div className="nav144">
+      <div className="all">
+        <div className="partfirst">
+          <div className="part14">
+            <h1>
+              Welcome to Sai Sanchit <br /> tiffin twon
+            </h1>
+            <p>
+              Enjoy the best tiffin services in Kopergaon, offering a wide range
+              of delicious dishes specially prepared for various festivals.
+            </p>
+          </div>
+        </div>
+        <div className="parttwo">
+          <div className="container999">
+            <h2>Sign Up</h2>
+            <form onSubmit={signup}>
+              <div className="form-group12">
+                <label>Name:</label>
+                <input
+                  type="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+              <div className="form-group12">
+                <label>Email:</label>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div className="form-group12">
+                <label>Password:</label>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+              </div>
+              <div className="form-group12">
+                <label>Mobile Number:</label>
+                <input
+                  type="text"
+                  value={mobileNumber}
+                  onChange={(e) => setMobileNumber(e.target.value)}
+                />
+              </div>
+              <div className="form-group radio-group12">
+                <input
+                  type="radio"
+                  id="user"
+                  name="userType"
+                  value="user"
+                  checked={userType === "user"}
+                  onChange={() => setUserType("user")}
+                />
+                <label htmlFor="user12">User</label>
+                <input
+                  type="radio"
+                  id="admin"
+                  name="userType"
+                  value="admin"
+                  checked={userType === "admin"}
+                  onChange={() => setUserType("admin")}
+                />
 
+                <label htmlFor="admin">Admin</label>
+              </div>
+              <button type="submit" className="btn-submit">
+                Sign Up
+              </button>
+              {error && <p className="error-msg">{error}</p>}
+            </form>
+            <p className="login-link">
+              Already have an account? <Link to="/LoginForm">Sign In</Link>
+            </p>
+          </div>
+        </div>
+      </div>
 
-<div className="nav144">
-   
-   <div className="all">
-   <div className="partfirst">
-   <div className="part14">
-     <h1>Welcome to Sai Sanchit <br /> tiffin twon</h1>
-     <p>Enjoy the best tiffin services in Kopergaon, offering a wide
-                range of delicious dishes specially prepared for various
-                festivals.</p>
-   </div>
-   </div>
-   <div className="parttwo">
-   <div className="container999">
-      <h2>Sign Up</h2>
-      <form onSubmit={signup}>
-        <div className="form-group12">
-          <label>Name:</label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <div className="form-group12">
-          <label>Email:</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </div>
-        <div className="form-group12">
-          <label>Password:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </div>
-        <div className="form-group12">
-          <label>Mobile Number:</label>
-          <input
-            type="text"
-            value={mobileNumber}
-            onChange={(e) => setMobileNumber(e.target.value)}
-          />
-        </div>
-        <div className="form-group radio-group12">
-          <input
-            type="radio"
-            id="user"
-            name="userType"
-            value="user"
-            checked={userType === "user"}
-            onChange={() => setUserType("user")}
-          />
-          <label htmlFor="user12">User</label>
-          <input
-            type="radio"
-            id="admin"
-            name="userType"
-            value="admin"
-            checked={userType === "admin"}
-            onChange={() => setUserType("admin")}
-          />
-
-          <label htmlFor="admin">Admin</label>
-        </div>
-        <button type="submit" className="btn-submit">
-          Sign Up
-        </button>
-        {error && <p className="error-msg">{error}</p>}
-      </form>
-      <p className="login-link">Already have an account?  <Link   to="/LoginForm">
-      Sign In
-              </Link></p>
+      <Footer />
     </div>
-   </div>
-   </div>
- 
-   <Footer/>
- </div>
-
   );
 }
 

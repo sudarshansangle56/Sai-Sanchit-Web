@@ -77,5 +77,13 @@
 
 
 
-
+@media screen and (min-width: 768px) {
+  .part14 h1{
+    font-size: 35px;
+  }
+  .part14 p{
+    font-size: 17px;
+  }
+  
+}
   

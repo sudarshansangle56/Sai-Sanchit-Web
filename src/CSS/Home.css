@@ -937,7 +937,7 @@ display: none;
   .headline button {
     width: 115px;
     height: 42px;
-    font-size: 1.7vh;
+    font-size: 1.9vh;
     padding: 4px;
     background-color: rgb(255, 255, 255);
     border: 2px solid white;
@@ -982,15 +982,15 @@ display: none;
     margin-right: 1vh;
   }
   .location3 img {
-    height: 5px;
+    height: 15px;
     width: auto;
-    margin-right: 0.1px;
+    margin-right: -5px;
   }  
   .location3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-  margin-left: -45px;
+  margin-left: -43px;
   
   }
   .location3 img {

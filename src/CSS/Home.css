@@ -1,5 +1,3 @@
-
-
 body {
   font-family: 'Copperplate Gothic', sans-serif;
 }
@@ -314,7 +312,7 @@ body {
   font-family: 'Copperplate Gothic', sans-serif;
   align-items: center;
   justify-content: center;
-  font-size: 3.3vh;
+  font-size: 4.5vh;
   margin-left: 25vh;
 }
 
@@ -920,4 +918,60 @@ display: none;
     font-size: 228%;
 
   }
+ 
 }
+
+@media only screen and (max-width: 480px) {
+ 
+  .img32 h1{
+    font-size:40px;
+    width: 50%;
+  }
+  .headline p{
+    font-size:12px;
+    width:50%;
+ 
+    
+  }
+  .headline button {
+    width: 115px;
+    height: 42px;
+    font-size: 1.7vh;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    font-family: 'Copperplate Gothic', sans-serif;
+    
+    border-radius: 6px;
+    color: #000000;
+    transition: 0.30s;
+  }
+}
+
+/* <div className="part1">
+<div className="part2">
+  <div className="headline">
+    <div className="img32">
+      <h1 className="title">
+        Welcome to Sai sanchit <br />
+        <span>Tiffin </span>Home<br />
+      </h1>
+    </div>
+
+    <div className="para">
+      <p>Your Delicious Destination!</p>
+    </div>
+    <p>
+      Relish nutritious, balanced meals delivered to your Kopergaon
+      doorstep. Enjoy 'Ghar ka khana' with its comforting touch,
+      customized to your preferences.{" "}
+      <span> Ab shuru karein sehatmand khaane ka anand, </span> jaise
+      aap chahein, wherever you are in  kopergaon.
+    </p>
+    <Link to="/About">
+      <button>About us</button>
+    </Link>
+  </div>
+  <div className="partimg"></div>
+</div>
+</div> */

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Componet/Navbar";
 import Footer from "../Componet/Footer";
+import HeroSection from "../Componet/HeroSection";
 import { Link } from "react-router-dom";
 import "../CSS/Home.css";
 
@@ -10,6 +11,7 @@ function Home() {
       <div className="nav115">
         <Navbar />
       </div>
+    
       <div className="part1">
         <div className="part2">
           <div className="headline">
@@ -23,18 +25,17 @@ function Home() {
             <div className="para">
               <p>Your Delicious Destination!</p>
             </div>
-            <p>
-              Relish nutritious, balanced meals delivered to your Kopergaon
-              doorstep. Enjoy 'Ghar ka khana' with its comforting touch,
-              customized to your preferences.{" "}
-              <span> Ab shuru karein sehatmand khaane ka anand, </span> jaise
-              aap chahein, wherever you are in  kopergaon.
-            </p>
+            <p>  
+  Enjoy healthy, homemade meals delivered to your doorstep in Kopargaon.  
+  <span>Start enjoying nutritious food,</span>  
+  <br /> just the way you like it, wherever you are in Kopargaon.  
+</p>
+
+
             <Link to="/About">
-              <button>About us</button>
+              <button className="okb">About us</button>
             </Link>
           </div>
-
           <div className="partimg"></div>
         </div>
       </div>
@@ -55,8 +56,8 @@ function Home() {
           </div>
           <div className="box12">
             <h1>
-              Enjoy monthly tiffin service <br />
-              for just Rs 3000. Each tiffin costs only Rs 50.
+              Enjoy monthly tiffin <br /> service
+              for just Rs 3000. <br/> Each tiffin costs only Rs 50.
             </h1>
           </div>
         </div>
@@ -72,11 +73,8 @@ function Home() {
           <div className="box33">
             <div className="box113">
               <img src="/IMAGES/cimg.png" alt="" srcset="" />
-              <h3>
-                Enjoy the best tiffin services in Kopergaon, offering a wide
-                range of delicious dishes specially prepared for various
-                festivals.
-              </h3>
+              <h3>Enjoy delicious tiffin services  in Kopargaon,  with special dishes<br/> for festivals.</h3>
+
             </div>
           </div>
         </div>

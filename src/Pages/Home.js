@@ -73,8 +73,7 @@ function Home() {
           <div className="box33">
             <div className="box113">
               <img src="/IMAGES/cimg.png" alt="" srcset="" />
-              <h3>Enjoy delicious tiffin services  in Kopargaon,  with special dishes<br/> for festivals.</h3>
-
+              <h3>Enjoy delicious tiffin services  in Kopargaon,  with special dishes.</h3>
             </div>
           </div>
         </div>

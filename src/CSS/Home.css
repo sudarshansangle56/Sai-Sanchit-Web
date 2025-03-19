@@ -803,10 +803,7 @@ display: none;
     width: 100%;
   }
 
-  .hf11 {
-   height: 200px;
-    width: 100%;
-  }
+ 
 
   .hf2 {
     height: 200px;
@@ -858,6 +855,10 @@ display: none;
     font-size: 5px;
     margin-top: 0.01px;
   
+  }
+   .hf11 {
+   height: 200px;
+    width: 100%;
   }
    .location1 {
     display: flex;
@@ -946,32 +947,80 @@ display: none;
     color: #000000;
     transition: 0.30s;
   }
+  .box113 h3{
+    padding-top:120px;
+     font-size: 20px
+  }
+ 
+ 
+  .location1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+  }
+  .location3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.7vh;
+  }
+  
+  .location1 img {
+    height: 15px;
+    width: auto;
+    align-items: center;
+  }
+  .location2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -30px;
+  }
+  
+  .location2 img {
+    height: 15px;
+    width: auto;
+    margin-right: 1vh;
+  }
+  .location3 img {
+    height: 5px;
+    width: auto;
+    margin-right: 0.1px;
+  }  
+  .location3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  margin-left: -45px;
+  
+  }
+  .location3 img {
+    height: 30px;
+    width: auto;
+  }
+ 
+
 }
-
-/* <div className="part1">
-<div className="part2">
-  <div className="headline">
-    <div className="img32">
-      <h1 className="title">
-        Welcome to Sai sanchit <br />
-        <span>Tiffin </span>Home<br />
-      </h1>
-    </div>
-
-    <div className="para">
-      <p>Your Delicious Destination!</p>
-    </div>
-    <p>
-      Relish nutritious, balanced meals delivered to your Kopergaon
-      doorstep. Enjoy 'Ghar ka khana' with its comforting touch,
-      customized to your preferences.{" "}
-      <span> Ab shuru karein sehatmand khaane ka anand, </span> jaise
-      aap chahein, wherever you are in  kopergaon.
-    </p>
-    <Link to="/About">
-      <button>About us</button>
-    </Link>
+/* <div className="hf11">
+<div className="cont">
+  <div className="location1">
+    <img src="/IMAGES/Name.png" alt="" srcset="" />
+    <h1>NAME:- NILESH GANDE</h1>
   </div>
-  <div className="partimg"></div>
+
+  <div className="location2">
+    <img src="/IMAGES/Call2.png" alt="" srcset="" />
+    <h1>Pho:-8007077730</h1>
+  </div>
+  <div className="location3">
+    <img src="/IMAGES/Location.png" alt="" srcset="" />
+    <h1>Kopergaon Dist Nagar 423601</h1>
+  </div>
+</div>
+<div className="car">
+  <div className="car12">
+    <img src="/IMAGES/Car.png" alt="" srcset="" />
+    <h1> FREE HOME DILIVERY</h1>
+  </div>
+  <p>IN KOPERGAON ONLY</p>
 </div>
 </div> */

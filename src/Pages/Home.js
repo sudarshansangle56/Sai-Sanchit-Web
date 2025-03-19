@@ -16,7 +16,7 @@ function Home() {
             <div className="img32">
               <h1 className="title">
                 Welcome to Sai sanchit <br />
-                <span>Tiffin </span> Town <br />
+                <span>Tiffin </span>Home<br />
               </h1>
             </div>
 
